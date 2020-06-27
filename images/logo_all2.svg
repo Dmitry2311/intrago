@@ -1,0 +1,28 @@
+<svg width="355" height="100" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
+ <defs>
+  <radialGradient fy="0.5" fx="0.5" gradientTransform="rotate(-68,0.49609375,0.46484375) translate(0.40679687500000006,0) scale(0.17999999999999994,1)" r="0.013615" cy="0.464844" cx="0.496094" spreadMethod="pad" id="svg_56">
+   <stop offset="0" stop-color="#000000"/>
+   <stop offset="0" stop-color="#ffffff"/>
+  </radialGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="url(#svg_56)" id="canvas_background" height="102" width="357" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="3" x="3" height="400" width="580"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <style transform="matrix(0.06340822323935313,0,0,0.06340822323935313,0,0) " type="text/css">.st0{fill:#2E4161;}
+	.st1{fill:#4DD3E3;}
+	.st2{fill:#4AC9E1;}
+	.st3{fill:#44B6DD;}
+	.st4{fill:#3FA4D9;}</style>
+  <ellipse id="svg_27" cy="221.418004" cx="278.367126" stroke-width="1.5" stroke="#ffffff" fill="#ffffff"/>
+  <text stroke="#ffffff" transform="matrix(1.5457090386755268,0,0,1.9134024758799189,-111.02873647752267,-202.67555817357749) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_29" y="132.272443" x="150.521219" stroke-width="0" fill="#003f7f">ANTARKTIDA</text>
+  <text stroke="#ffffff" transform="matrix(1.8506246626757505,0,0,1.7990778959479026,-250.7025502806897,-164.80041162085007) " xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_31" y="139.139119" x="196.069002" stroke-opacity="null" stroke-width="0" fill="#003f7f">Role Play</text>
+  <ellipse stroke="#ffffff" ry="31.221429" rx="53.715409" id="svg_32" cy="39.92535" cx="57.928606" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#003f7f"/>
+ </g>
+</svg>
