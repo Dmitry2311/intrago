@@ -1,0 +1,22 @@
+$('.like').each(function() {
+    if($.cookie('like_'+$(this).data('id')+'')) {
+        $(this).addClass('like-in');
+    }
+});
+
+$('.like').click(function () {
+    var countlike = $(this);
+    var link = $(this);
+    var id = link.data('id');
+    if(!$.cookie('like_'+id+'') && !$(this).hasClass('like-in'))
+    {
+        $.get('/news/rate/', {news_id: ''+id+''});
+        $.cookie('like_'+id+'', 'trueset');
+        countlike.closest('.like').children('span').text(Number(countlike.closest('.like').children('span').html()) + 1);
+    }
+    else if($.cookie('like_'+id+''))
+    {
+        $('#mess_'+id+'').html("Вы уже оценили эту новость!");
+    }
+    countlike.addClass('like-in');
+});
